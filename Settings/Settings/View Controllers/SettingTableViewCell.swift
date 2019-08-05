@@ -1,12 +1,8 @@
-//
-//  SettingTableViewCell.swift
-//  Settings
-//
-//  Created by Mitch Merrell on 8/5/19.
-//  Copyright © 2019 Mitch Merrell. All rights reserved.
-//
-
 import UIKit
+
+protocol SettingTableViewCellDelegate: class {
+    func cellSettingSwitchValueChanged(cell: SettingTableViewCell, isOn: Bool )
+}
 
 class SettingTableViewCell: UITableViewCell {
 
@@ -17,6 +13,8 @@ class SettingTableViewCell: UITableViewCell {
     @IBOutlet weak var settingSwitch: UISwitch!
     
     // MARK: Properties
+    
+    weak var delegate: SettingTableViewCellDelegate?
     
     var setting: Setting? {
         didSet {
@@ -38,7 +36,18 @@ class SettingTableViewCell: UITableViewCell {
             
         } else {
             
+            // reusable
+            
         }
     }
+    
+    // MARK: Actions
+    
+    @IBAction func settingSwitchValueChanged(_ sender: Any) {
+        
+        delegate?.cellSettingSwitchValueChanged(cell: self, isOn: settingSwitch.isOn)
+        
+    }
+    
 
 }

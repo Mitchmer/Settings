@@ -22,4 +22,10 @@ class SettingController {
         
         settings = [apps, books, music]
     }
+    
+    // MARK: CRUD
+    
+    func setIsOn(for setting: Setting, isOn: Bool) {
+        setting.isOn = isOn
+    }
 }

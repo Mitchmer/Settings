@@ -44,6 +44,9 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vBd-EC-bb7">
                                                     <rect key="frame" x="325" y="33" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="settingSwitchValueChanged:" destination="gd0-QI-rpQ" eventType="valueChanged" id="64e-Gw-9yI"/>
+                                                    </connections>
                                                 </switch>
                                             </subviews>
                                         </stackView>

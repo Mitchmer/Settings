@@ -10,7 +10,7 @@ import UIKit
 
 class Setting {
     let name: String
-    let isOn: Bool
+    var isOn: Bool
     let icon: UIImage?
     
     init(name: String, isOn: Bool = false, icon: UIImage?) {
