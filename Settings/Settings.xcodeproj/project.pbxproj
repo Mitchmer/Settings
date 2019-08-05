@@ -13,6 +13,8 @@
 		997F9F3122F88AC8000AD739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997F9F2F22F88AC8000AD739 /* LaunchScreen.storyboard */; };
 		997F9F3D22F88FB9000AD739 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997F9F3C22F88FB9000AD739 /* Setting.swift */; };
 		997F9F3F22F8912C000AD739 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997F9F3E22F8912C000AD739 /* SettingController.swift */; };
+		997F9F4122F89440000AD739 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997F9F4022F89440000AD739 /* SettingTableViewController.swift */; };
+		997F9F4322F89527000AD739 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997F9F4222F89527000AD739 /* SettingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		997F9F3222F88AC8000AD739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		997F9F3C22F88FB9000AD739 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		997F9F3E22F8912C000AD739 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		997F9F4022F89440000AD739 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		997F9F4222F89527000AD739 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		997F9F3B22F88D53000AD739 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				997F9F4022F89440000AD739 /* SettingTableViewController.swift */,
+				997F9F4222F89527000AD739 /* SettingTableViewCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				997F9F4122F89440000AD739 /* SettingTableViewController.swift in Sources */,
+				997F9F4322F89527000AD739 /* SettingTableViewCell.swift in Sources */,
 				997F9F3F22F8912C000AD739 /* SettingController.swift in Sources */,
 				997F9F3D22F88FB9000AD739 /* Setting.swift in Sources */,
 				997F9F2722F88AC7000AD739 /* AppDelegate.swift in Sources */,
