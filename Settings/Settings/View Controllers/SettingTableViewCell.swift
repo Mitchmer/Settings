@@ -36,7 +36,11 @@ class SettingTableViewCell: UITableViewCell {
             
         } else {
             
-            // reusable
+            iconImageView.image = nil
+            settingNameLabel.text = ""
+            settingSwitch.isOn = false
+            
+            backgroundColor = .white
             
         }
     }
