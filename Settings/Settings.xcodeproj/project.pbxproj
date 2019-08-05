@@ -52,8 +52,11 @@
 		997F9F2522F88AC7000AD739 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				997F9F3822F88B3D000AD739 /* Resources */,
 				997F9F2A22F88AC7000AD739 /* Main.storyboard */,
+				997F9F3B22F88D53000AD739 /* View Controllers */,
+				997F9F3A22F88D4F000AD739 /* Models */,
+				997F9F3922F88D3C000AD739 /* Model Controllers */,
+				997F9F3822F88B3D000AD739 /* Resources */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -67,6 +70,27 @@
 				997F9F3222F88AC8000AD739 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		997F9F3922F88D3C000AD739 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		997F9F3A22F88D4F000AD739 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		997F9F3B22F88D53000AD739 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
