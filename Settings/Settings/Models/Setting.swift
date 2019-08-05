@@ -11,13 +11,12 @@ import UIKit
 class Setting {
     let name: String
     let isOn: Bool
-    let icon: UIImage
+    let icon: UIImage?
     
-    init(name: String, isOn: Bool = false, icon: UIImage) {
+    init(name: String, isOn: Bool = false, icon: UIImage?) {
         self.name = name
         self.isOn = isOn
         self.icon = icon
     }
-    
     
 }
